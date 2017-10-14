@@ -1,0 +1,38 @@
+.table-wrapper {
+	margin:25px 0;
+
+	h4 {
+		margin-bottom:20px;
+	}
+} // end of table-wrapper
+
+
+
+
+.table>tbody>tr>td.download {
+	text-align:center;
+}
+
+
+.table>tbody>tr>td.download a {
+	background:$success;
+	color:white;
+	padding:5px 8px;
+	@include border-radius(4px);
+}
+
+
+
+
+
+.table>tbody>tr>td.trash {
+	text-align:center;
+}
+
+
+.table>tbody>tr>td.trash a {
+	background:$error;
+	color:white;
+	padding:5px 8px;
+	@include border-radius(4px);
+}

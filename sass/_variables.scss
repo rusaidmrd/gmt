@@ -1,0 +1,29 @@
+// color variables
+$primary:#a78754;
+$secondary:#631a35;
+$dark:#141414;
+$normal:#eae9e9;
+$light:#f7f7f7;
+
+$error:#e54b48;
+
+
+
+// the values for responsive web site
+
+
+// iPhone 4 and 4S
+$iphone4sP: (320px 480px) (orientation portrait);
+$iphone4sL: (320px 480px) (orientation landscape);
+
+// iPhone 5 and 5S
+$iphone5sP: (320px 568px) (orientation portrait);
+$iphone5sL: (320px 568px) (orientation landscape);
+
+// iPhone 6
+$iphone6P: (375px 667px) (orientation portrait);
+$iphone6L: (375px 667px) (orientation landscape);
+
+// iPhone 6+
+$iphone6mainP: (414px 736px) (orientation portrait);
+$iphone6mainL: (414px 736px) (orientation landscape);

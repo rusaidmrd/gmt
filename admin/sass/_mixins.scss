@@ -1,0 +1,61 @@
+@mixin clearfix {
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+  }// after and before
+
+  &:after {
+    clear:both;
+  }// after
+
+}
+
+
+@mixin box-shadow {
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.75);
+}
+
+@mixin box-shadow-main {
+  -webkit-box-shadow: 0px 1px 10px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 1px 10px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 1px 10px -2px rgba(0,0,0,0.75);
+}
+
+@mixin box-shadow-bottom {
+  -webkit-box-shadow: 0px 3px 6px -2px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 3px 6px -2px rgba(0,0,0,0.25);
+  box-shadow: 0px 3px 6px -2px rgba(0,0,0,0.25);
+}
+
+@mixin box-shadow-img {
+   -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+
+
+@mixin transition {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}// end of transition
+
+
+@mixin transition-cubic {
+  -webkit-transition: all 0.4s $ease;
+  -moz-transition: all 0.4s $ease;
+  -ms-transition: all 0.4s $ease;
+  transition: all 0.4s $ease;
+}// end of transition
+
+
+@mixin transform {
+  -webkit-transform: all 0.4s ease-in-out;
+  -moz-transform: all 0.4s ease-in-out;
+  -ms-transform: all 0.4s ease-in-out;
+  transform: all 0.4s ease-in-out;
+}// end of transition

@@ -1,0 +1,21 @@
+header {
+	width:100%;
+	.top {
+		width:100%;
+		height:60px;
+		background:$dark;
+
+		.log-wrap {
+			float:right;
+			margin-right:25px;
+			a {
+				color:white;
+				padding:8px 24px;
+				line-height:60px;
+				font-size:18px;
+				text-decoration:none;
+			}
+		}
+	}
+
+} // end of header 

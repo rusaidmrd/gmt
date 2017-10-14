@@ -1,0 +1,35 @@
+@mixin clearfix {
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+  }// after and before
+
+  &:after {
+    clear:both;
+  }// after
+
+}
+
+
+
+@mixin transition {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}// end of transition
+
+@mixin transform {
+  -webkit-transform: all 0.4s ease-in-out;
+  -moz-transform: all 0.4s ease-in-out;
+  -ms-transform: all 0.4s ease-in-out;
+  transform: all 0.4s ease-in-out;
+}// end of transition
+
+@mixin image-shadow {
+  border: solid 2px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;
+}

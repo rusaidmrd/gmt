@@ -1,0 +1,50 @@
+
+//color variables
+$dark:#141414;
+$primary:#c94b4b;
+$secondary:#9acc49;
+$sec-dark:#a6a6a6;
+// $light:#f8f1eb;
+$light:#f7f6f5;
+$sec-light:#e8e1dc;
+$txt-color:#6f6c6c;
+$hover-light:#eae4de;
+
+
+$success:#41af46;
+$error:#ed5a5a;
+
+
+
+$success-color:#41af46;
+$error-color:#ed5a5a;
+
+// assume min-width (by default) if only a number
+$high-tide: 500px;
+// set min-width/max-width if both values are numbers
+$ex-presidents: 600px 800px;
+// if one value is a string, assume a feature/value pair
+$surfboard-width: max-width 1000px;
+// string tests together within parentheses, assume each item is a feature value pair
+$surfboard-height: (min-height 1000px) (orientation portrait);
+
+
+$reg-between:500px 800px;
+
+
+$test : max-width 499px;
+
+
+// cubic
+$ease: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+
+
+
+$highlight-color: #505050;
+
+
+$lap-top-max:1441px;
+$lap-max :1367px 1600px;
+$lap-mid :1280px 1366px;
+
