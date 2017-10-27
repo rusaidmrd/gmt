@@ -59,3 +59,50 @@
 
 
 } // end of slider-wrapper
+
+
+
+@include breakpoint($ipadMax) {
+	.slider-wrapper {
+		.slider-content {
+			width:70%;
+		}
+	} // end of slider-wrapper
+}
+
+
+@include breakpoint($mobileMax) {
+	.slider-wrapper {
+		padding-top:40%;
+		.slider-content {
+			.slider-content-inner {
+				padding:25px 20px 25px;
+				h1 {
+					font-size: 1.1em;
+					margin-bottom:15px;
+					line-height:20px;
+				}
+
+				h2 {
+					font-size: 1em;
+					margin-bottom:10px;
+					line-height:19px;
+				}
+
+				p {
+					width:95%;
+					margin:5px auto 20px auto;
+					line-height: 1.1;
+					font-size:0.9em;
+				}
+
+				a {
+					margin-bottom:15px;
+					padding:8px 16px;
+				}
+			} //end of slider-content-inner
+			
+		}// end of slider-content
+
+	} // end of slider-wrapper
+}

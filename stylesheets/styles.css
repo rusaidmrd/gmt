@@ -287,7 +287,7 @@ a:hover {
   font-weight: 700;
   color: #a78754;
 }
-@media (max-width: 415px) {
+@media (max-width: 768px) {
   /* line 26, ../sass/modules/_top-wrapper.scss */
   .top-wrapper .logo-wrapper .logo-text h3 {
     display: none;
@@ -445,7 +445,7 @@ a:hover {
   border-bottom: 2px solid #631a35;
 }
 
-@media (max-width: 415px) {
+@media (max-width: 768px) {
   /* line 201, ../sass/modules/_top-wrapper.scss */
   .top-wrapper {
     postion: relative;
@@ -576,6 +576,46 @@ a:hover {
   border-radius: 3px;
 }
 
+@media (max-width: 768px) {
+  /* line 67, ../sass/modules/_slider-wrapper.scss */
+  .slider-wrapper .slider-content {
+    width: 70%;
+  }
+}
+@media (max-width: 415px) {
+  /* line 75, ../sass/modules/_slider-wrapper.scss */
+  .slider-wrapper {
+    padding-top: 40%;
+  }
+  /* line 78, ../sass/modules/_slider-wrapper.scss */
+  .slider-wrapper .slider-content .slider-content-inner {
+    padding: 25px 20px 25px;
+  }
+  /* line 80, ../sass/modules/_slider-wrapper.scss */
+  .slider-wrapper .slider-content .slider-content-inner h1 {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    line-height: 20px;
+  }
+  /* line 86, ../sass/modules/_slider-wrapper.scss */
+  .slider-wrapper .slider-content .slider-content-inner h2 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    line-height: 19px;
+  }
+  /* line 92, ../sass/modules/_slider-wrapper.scss */
+  .slider-wrapper .slider-content .slider-content-inner p {
+    width: 95%;
+    margin: 5px auto 20px auto;
+    line-height: 1.1;
+    font-size: 0.9em;
+  }
+  /* line 99, ../sass/modules/_slider-wrapper.scss */
+  .slider-wrapper .slider-content .slider-content-inner a {
+    margin-bottom: 15px;
+    padding: 8px 16px;
+  }
+}
 /* line 1, ../sass/modules/_about-wrapper.scss */
 .about-wrapper {
   width: 100%;
