@@ -64,6 +64,7 @@
 
 @include breakpoint($ipadMax) {
 	.slider-wrapper {
+		padding-top:30%;
 		.slider-content {
 			width:70%;
 		}
