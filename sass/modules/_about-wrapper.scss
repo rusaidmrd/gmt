@@ -44,3 +44,58 @@
 	} // end of inner-wrapper
 
 } // end of about-wrapper
+
+
+@include breakpoint($ipadMax) {
+	.about-wrapper {
+		.inner-wrapper {
+			.heading-wrapper {
+				width:70%;
+				h2 {
+					font-size: 1.7em;
+				}
+
+				h4 {
+					font-size:0.9em;
+				}
+				
+			} // end of heading-wrapper
+			
+			.about-text {
+				width:70%;
+				img {
+					width:150px;
+					height: 150px;	
+				}
+
+				p {
+					font-size:0.8em;
+				}
+			} // end of about-text
+
+		} // end of inner-wrapper
+	} // end of about-wrapper
+}
+
+
+@include breakpoint($mobileMax) {
+	.about-wrapper {
+		.inner-wrapper {
+			.heading-wrapper {
+				width:70%;
+				h2 {
+					font-size: 1.4em;
+				}
+				
+			} // end of heading-wrapper
+			
+			.about-text {
+				img {
+					width:100px;
+					height: 100px;	
+				}
+			} // end of about-text
+
+		} // end of inner-wrapper
+	} // end of about-wrapper
+}
