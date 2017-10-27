@@ -9,9 +9,6 @@ $error:#e54b48;
 
 
 
-// the values for responsive web site
-
-
 // iPhone 4 and 4S
 $iphone4sP: (320px 480px) (orientation portrait);
 $iphone4sL: (320px 480px) (orientation landscape);
@@ -27,3 +24,10 @@ $iphone6L: (375px 667px) (orientation landscape);
 // iPhone 6+
 $iphone6mainP: (414px 736px) (orientation portrait);
 $iphone6mainL: (414px 736px) (orientation landscape);
+
+
+// maximum ipad breakpoint
+$ipadMax: max-width 768px;
+
+// maximum mobile breakpoint
+$ipadMax: max-width 415px;

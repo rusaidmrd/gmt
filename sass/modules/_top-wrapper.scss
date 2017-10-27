@@ -31,6 +31,9 @@
 				font-size: 1em;
 				font-weight: 700;
 				color: $primary;
+				@include breakpoint($ipadMax) {
+					display:none;
+				}
 			}
 
 		}
@@ -179,6 +182,7 @@
 						font-size: 0.8em;
 						font-weight: 600;
 						@include border-radius(3px);
+					      
 						&:hover {
 							text-decoration: none;
 							border-bottom:2px solid $secondary;
@@ -187,6 +191,75 @@
 				}
 			}
 		}
-	}
-
+	} // end of menu wrapper
+	
+	
 } // end of top-wrapper
+
+
+@include breakpoint($ipadMax) {
+	.top-wrapper {
+		postion:relative;
+		height:60px;
+		padding:0px 2%;
+		
+		.logo-wrapper {
+			.logo-img {
+				float: left;
+				img {
+					width:55px;
+					height: 55px;
+				}
+			} // end of logo-img
+		} // end of logo-wrapper
+
+		.lang-wrapper {
+			position:absolute;
+			top:0;
+			left:50%;
+			transform:translateX(-50%);
+			height:60px;
+			.lang-head {
+				line-height:60px;
+			} // end of lang-head
+			
+		} // lang-wrapper
+
+		.menu-wrapper {
+			position:absolute;
+			top:60px;
+			left:0;
+			width:100%;
+			margin:0;
+			@include transition;
+			ul.menu {
+				li {
+					display:block;
+					background:black;
+					width:100%;
+					margin-left:0;
+					text-align:center;
+					a {
+						
+					}
+				}
+			}
+		} // end of menu wrapper
+		
+		.navbar-collapse.in {
+			padding:0;
+		}
+		
+		.humber-wrap {
+			position:absolute;
+			top:0px;
+			right:0px;
+			
+			i {
+				font-size:1.2em;
+			}
+		} // end of humber-menu
+		
+	} // end of top-wrapper
+	
+}

@@ -9,6 +9,7 @@ $(document).ready(function(){
 	 	var file=$('#t-file').get(0).files.length;
 	 	var value=$('#submit').val();
 	 	
+        
       
 
 	    var atpos = email.indexOf("@");
